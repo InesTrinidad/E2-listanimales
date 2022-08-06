@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(238, 133, 220);
+    background-color: rgb(243, 243, 176);
 }
 
 #cabecera{
-    background-color: rgb(156, 228, 228);
+    background-color: rgb(73, 126, 71);
 }
 
 h1{
@@ -11,24 +11,26 @@ h1{
     justify-content: center;
     text-align: center;
     font-size: 100px;
+    color: brown;
     
 }
 
 #navegador {
     margin: 50px 50px;
-    padding: 0.1em 1em 0.5em 1em;
-    background-color: rgb(128, 164, 231);
-    position: relative;
+    padding: 1em 1em 0.5em 1em;
+    background-color: rgb(236, 208, 84);
+    position: center;
     text-align: center;
-    
+    height: 500px;
+    width: 500px;
     
 }
 
 #listanimales{
-    background-color: rgb(204, 164, 223);
+    background-color: rgb(180, 209, 228);
     font-style: normal;
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 30px;
     border: 1px solid black;
     padding: 2%;
     margin: 50px 50px 50px 50px;
@@ -40,4 +42,10 @@ h1{
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+img { 
+    max-width: 100%;
+    max-height: 100%;
+    
 }
